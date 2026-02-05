@@ -1,0 +1,20 @@
+/* header */
+/* hero */
+/* parters */
+.partners__container{
+    width: 1113px;
+    height: 100%;
+}
+.partners__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 103px;
+    align-items: center;
+}
+/* about */
+/* featyres */
+/* prices */
+/* coments */
+/* statistic */
+/* portfolio */
+/* footer */
