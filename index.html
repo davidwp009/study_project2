@@ -24,12 +24,13 @@
                     <li class="head__link"><a href="#" class="head__item">Contact</a></li>
                 </ul>
             </nav>
-            <a href="#" class="btn-primary">Login</a>
+            <a href="#" class="btn-primary" data-modal-open>Login</a>
         </div>
     </header>
     <!-- hero -->
     <section class="hero">
     <div class="container hero__container">
+        <img src="./images/body-1.png" alt="#" class="hero__image">
 
         <div class="hero__text">
             <h1 class="hero__title">Tell a better brand story</h1>
@@ -96,9 +97,14 @@
     </div>
 
     <ul class="about__list">
+
       <li class="about__list-item">
         <div class="about__card">
-          <img src="./images/about-6.png" alt="" class="about__img">
+
+          <div class="about__icon">
+            <img src="./images/about-1.png" alt="">
+          </div>
+
           <h3 class="about__card-title">Community Support</h3>
           <p class="about__card-subtitle">
             Apps keep work and information right at your fingertips—and Slack keeps it all securely.
@@ -108,7 +114,11 @@
 
       <li class="about__list-item">
         <div class="about__card">
-          <img src="./images/about-2.png" alt="" class="about__img">
+
+          <div class="about__icon">
+            <img src="./images/about-2.png" alt="">
+          </div>
+
           <h3 class="about__card-title">Security First</h3>
           <p class="about__card-subtitle">
             Connect the tools you already use to get more from them every time you work.
@@ -118,7 +128,11 @@
 
       <li class="about__list-item">
         <div class="about__card">
-          <img src="./images/about-3.png" alt="" class="about__img">
+
+          <div class="about__icon">
+            <img src="./images/about-3.png" alt="">
+          </div>
+
           <h3 class="about__card-title">24/7 Admin Support</h3>
           <p class="about__card-subtitle">
             You can work with apps in channels, where they’re a seamless part of the conver.
@@ -128,7 +142,11 @@
 
       <li class="about__list-item">
         <div class="about__card">
-          <img src="./images/about-4.png" alt="" class="about__img">
+
+          <div class="about__icon">
+            <img src="./images/about-4.png" alt="">
+          </div>
+
           <h3 class="about__card-title">100+ Themes</h3>
           <p class="about__card-subtitle">
             Spend less time tracking down the people needed to get work done.
@@ -138,27 +156,37 @@
 
       <li class="about__list-item">
         <div class="about__card">
-          <img src="./images/about-5.png" alt="" class="about__img">
+
+          <div class="about__icon">
+            <img src="./images/about-5.png" alt="">
+          </div>
+
           <h3 class="about__card-title">Fully Integrated</h3>
           <p class="about__card-subtitle">
-            Skip the follow-ups and back-and-forth. Easily standardize how you collect
+            Skip the follow-ups and back-and-forth. Easily standardize how you collect.
           </p>
         </div>
       </li>
 
       <li class="about__list-item">
         <div class="about__card">
-          <img src="./images/about-6.png" alt="" class="about__img">
+
+          <div class="about__icon">
+            <img src="./images/about-6.png" alt="">
+          </div>
+
           <h3 class="about__card-title">Monthly Update</h3>
           <p class="about__card-subtitle">
-            Take control of your work day. In a just a few minutes, create a customized workflow
+            Take control of your work day. In a just a few minutes, create a customized workflow.
           </p>
         </div>
       </li>
+
     </ul>
 
   </div>
 </section>
+
 
 
 
@@ -169,9 +197,10 @@
                 <h2 class="features__title">How it Works?</h2>
                 <p class="features__subtitle">Resolving neglected sir tolerably but existence conveying for.<br>Day his put off unaffected literature partiality inhabiting.</p>
             </div>
-            <img src="./images/features-1.png" alt="" class="features__img-1">
-            <img src="./images/features-2.png" alt="" class="features__img-2">
-            <img src="./images/features-3.png" alt="" class="features__img-3">
+            <img src="./images/features-1.png" alt="#" class="features__img-1">
+            <img src="./images/features-2.png" alt="#" class="features__img-2">
+            <img src="./images/features-3.png" alt="#" class="features__img-3">
+            <img src="./images/body-2.png" alt="#" class="features__img-4">
 
         </div>
     </section>
@@ -185,7 +214,7 @@
     <div class="container prices__container">
 
         <div class="prices__head">
-            <h2 class="prices__title">Our plans scale with your product</h2>
+            <h2 class="prices__title">Our plans scale with your<br>product</h2>
             <p class="prices__subtitle">in virtual space through communication platforms.</p>
         </div>
 
@@ -283,7 +312,7 @@
                     </li>
                 </ul>
 
-                <a href="#" class="price__btn price__btn--light">Contact Us</a>
+                <a href="#" class="price__btn price__btn--light last-btn">Contact Us</a>
             </div>
 
         </div>
@@ -381,6 +410,7 @@
     <!-- portfolio -->
     <section class="portfolio">
     <div class="container portfolio__container">
+        <img src="./images/body-3.png" alt="#" class="footer__img">
 
         <h2 class="portfolio__title">
             Social Media Its Ways<br>
@@ -407,6 +437,7 @@
 
     <footer class="footer">
     <div class="container footer__top">
+        
 
         <!-- LOGO -->
         <div class="footer__logo">
@@ -437,5 +468,67 @@
     <!-- COPYRIGHT -->
     <p class="footer__copy">Copyright © Brands.io creative</p>
 </footer>
+
+
+
+<!--Modal window-->
+<div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-button" data-modal-close>
+          <svg class="modal-icon">
+            <use href="./img/symbol-defs.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <form class="modal-form">
+          <h3 class="modal-form-title">
+            Залиште свої дані, ми вам передзвонимо
+          </h3>
+          <div class="modal-form-field">
+            <label for="name" class="modal-form-label">name</label>
+            <input type="text" id="name" class="modal-form-input" />
+            <svg class="modal-form-icon">
+              <use href="./img/symbol-defs.svg#icon-formperson"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label for="tel" class="modal-form-label">phone</label>
+            <input type="tel" id="tel" class="modal-form-input" />
+            <svg class="modal-form-icon">
+              <use href="./img/symbol-defs.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label for="email" class="modal-form-label">email</label>
+            <input type="email" id="email" class="modal-form-input" />
+            <svg class="modal-form-icon">
+              <use href="./img/symbol-defs.svg#icon-email-black"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label for="comment" class="modal-form-label">comment</label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="введіть текст"
+              class="comment"
+            ></textarea>
+          </div>
+          <div class="modal__label-wrap"><label class="modal-form-policy">
+            <input type="checkbox" class="modal-form-checkbox" />
+          </label>
+          <p class="modal-policy-text">
+            Погоджуйся з розсилкою та приймаю
+            <a href="#" class="modal-policy-link"> умови договору</a>
+          </p></div>
+
+          <button type="submit" class="agree-btn">відправити</button>
+        </form>
+      </div>
+    </div>
+    
+    <script src="./script.js"></script>
+   
 </body>
 </html>
